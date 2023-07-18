@@ -1,0 +1,57 @@
+/* share style */
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+body{ 
+     /* font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+    font-family: 'Work Sans', sans-serif;}
+
+
+
+    /* navbar section style */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 240px ;
+    margin-right: 240px;
+}
+/* .navbar-icon-container{height: 20px;} */
+.navbar-icon{
+    width: 86.041px;
+    height: 40px;}
+
+
+.navbar-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-title-g{background: #FF42A5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}    
+
+.title{text-align: center;
+    font-size: 45px;
+    font-weight: 700;}
+
+.navbar-right-option-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;}
+
+
+nav ul li{list-style: none;
+    
+}
+nav ul{display: flex;gap: 32px;}
+
+.navbar-right-content{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding:17px 24px;
+}
