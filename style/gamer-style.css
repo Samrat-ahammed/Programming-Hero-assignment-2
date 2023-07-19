@@ -8,7 +8,9 @@ body {
 
 .container {
   max-width: 100%;
-  margin: 0 auto;
+  /* margin: auto; */
+  margin-left: 240px;
+  margin-right: 240px;
 }
 /* navbar section style */
 .navbar-container {
@@ -160,10 +162,12 @@ nav ul {
   display: flex;
   gap: 34px;
 }
-
-/* .photo {
+.online-img-content-container {
+  width: 342px;
+}
+.photo {
   width: 100%;
-} */
+}
 
 /* .photo-container {
   width: 342px;
